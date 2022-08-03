@@ -1,0 +1,107 @@
+[{
+  "menu": {
+    "logo": "/assets/instagram.png",
+    "search_bar": "/assets/search.svg",
+    "iconos": [
+      {
+        "id": 0,
+        "src": "/assets/home.svg",
+        "alt": "home"
+      },
+      {
+        "id": 1,
+        "src": "/assets/plane.svg",
+        "alt": "plane"
+      },
+      {
+        "id": 2,
+        "src": "/assets/plus.svg",
+        "alt": "plus"
+      },
+      {
+        "id": 3,
+        "src": "/assets/compass.svg",
+        "alt": "compass"
+      },
+      {
+        "id": 4,
+        "src": "/assets/heart.svg",
+        "alt": "heart"
+      },
+      {
+        "id": 5,
+        "src": "/assets/profiles/cap.jfif",
+        "alt": "profile"
+      }
+    ]
+  },
+  "profile": [
+    {
+      "id": 5,
+      "src": "/assets/photo.svg",
+      "alt": "/photo"
+    },
+    {
+      "id": 2,
+      "src": "/assets/bookmark.svg"
+    },
+    {
+      "id": 7,
+      "src": "/assets/profile.svg",
+      "alt": "/profile"
+    }
+  ],
+  "home": {
+    "icons": [
+      {
+        "id": 0,
+        "src": "/assets/heart.svg",
+        "alt": "icon1"
+      },
+      {
+        "id": 1,
+        "src": "/assets/chat.svg",
+        "alt": "icon2"
+      },
+      {
+        "id": 2,
+        "src": "/assets/plane.svg",
+        "alt": "share"
+      }
+    ],
+    "dots": "/assets/dots.svg",
+    "bookmark": "/assets/bookmark.svg",
+    "little_heart": "/assets/little_heart.svg",
+    "emoji": "/assets/emoji.svg"
+  },
+  "submenu": [
+    {
+      "id": 0,
+      "src": "/assets/info.svg"
+    },
+    {
+      "id": 1,
+      "src": "/assets/bookmark.svg"
+    },
+    {
+      "id": 2,
+      "src": "/assets/settings.svg"
+    },
+    {
+      "id": 3,
+      "src": "/assets/switch.svg"
+    }
+  ],
+  "footer" :  [
+    "About",
+    "Help",
+    "Press",
+    "Api",
+    "Jobs",
+    "Privacy",
+    "Terms",
+    "Locations",
+    "Language"
+  ]
+}
+]

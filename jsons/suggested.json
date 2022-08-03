@@ -1,0 +1,44 @@
+ [
+  {
+    "id": 0,
+    "name": "incredible_ultron",
+    "img": "/assets/profiles/ultron.jfif",
+    "status": "Death to humanity"
+  },
+  {
+    "id": 1,
+    "name": "your_friendly_pal",
+    "img": "/assets/profiles/thanos.jpg",
+    "status": "Less is more"
+  },
+  {
+    "id": 2,
+    "name": "bloody_hell",
+    "img": "/assets/profiles/red-skull.jpg",
+    "status": "Im blue"
+  },
+  {
+    "id": 3,
+    "name": "lucky_loki",
+    "img": "/assets/profiles/loki.jpg",
+    "status": "Pekaboo"
+  },
+  {
+    "id": 4,
+    "name": "el_demonio",
+    "img": "/assets/profiles/hela.png",
+    "status": "I am back"
+  },
+  {
+    "id": 5,
+    "name": "alone_inthe_world",
+    "img": "/assets/profiles/wanda-dark.jfif",
+    "status": "..."
+  },
+  {
+    "id": 6,
+    "name": "baby_widow",
+    "img": "/assets/profiles/widow.jpg",
+    "status": "Black Widow pride"
+  }
+]
