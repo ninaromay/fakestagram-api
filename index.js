@@ -10,7 +10,7 @@ const {router} = require('./router')
 let user = process.env.USER
 let password = process.env.PASSWORD
 
-let url = 'mongodb+srv://'+user+':'+password+'@cluster0.cn3nl3k.mongodb.net/fakestagram?retryWrites=true&w=majority' || 'mongodb://localhost:27017/fakestagram'
+let url =  process.env.USER ? 'mongodb+srv://'+user+':'+password+'@cluster0.cn3nl3k.mongodb.net/fakestagram?retryWrites=true&w=majority' :  'mongodb://localhost:27017/fakestagram'
 
 mongoose.connect(url, {
     useNewUrlParser: true,
