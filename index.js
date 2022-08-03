@@ -7,11 +7,16 @@ let mongoose = require('mongoose')
 
 const {router} = require('./router')
 
-mongoose.connect('mongodb://localhost:27017/fakestagram', {
+let user = process.env.USER
+let password = process.env.PASSWORD
+
+let url = 'mongodb+srv://'+user+':'+password+'@cluster0.cn3nl3k.mongodb.net/fakestagram?retryWrites=true&w=majority' || 'mongodb://localhost:27017/fakestagram'
+
+mongoose.connect(url, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 })  .then( () => {console.log('Conectado a mongoose');} )
-.catch(err => console.log(err))
+    .catch(err => console.log(err))
 
 let app = express()
 
@@ -21,5 +26,7 @@ app.use(express.urlencoded({ extended : false }))
 
 app.use(router)
 
-app.listen(3010, () =>  
+
+let puerto = process.env.PORT || 3010
+app.listen(puerto, () =>  
 console.log('Inicializing Fakestagram Api'))
